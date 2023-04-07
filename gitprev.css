@@ -1,0 +1,124 @@
+.gitprev-block p {
+    margin: 0;
+}
+
+.gitprev-container {
+    padding: 15px;
+}
+
+.gitprev-block {
+    margin-bottom: 24px;
+    transition: all 0.2s ease-in-out;
+
+    /* Glassmorph Div Style*/
+    background: rgb(32, 10, 47);
+    background: linear-gradient(0deg, rgb(57, 17, 83) 0%, rgb(73, 12, 114) 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(246, 233, 255, 0);
+}
+
+.gitprev-center {
+    text-align: center;
+}
+
+.gitprev-img {
+    height: 296px;
+    width: 296px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.527);
+
+}
+
+.gitprev-name {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.gitprev-username {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.507);
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.gitprev-profile {
+    background: rgba(0, 0, 0, 0.336);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+
+
+    padding: 5px;
+    border-style: solid;
+    border-radius: 4px;
+    width: 100%;
+    color: white;
+    margin-bottom: 15px;
+    transition: 0.2s;
+}
+
+.gitprev-profile:hover {
+    background: rgba(51, 51, 51, 0.336);
+    transition: 0.2s;
+}
+
+.gitprev-description {
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+}
+
+.gitprev-extras {
+    color: white;
+    margin-bottom: 12px;
+
+}
+
+.gitprev-extras .gitprev-icon {
+    color: rgba(255, 255, 255, 0.384);
+    margin-right: 4px;
+
+}
+
+.gitprev-location {
+    margin-bottom: 5px;
+}
+
+
+.gitprev-repos {}
+
+.gitprev-foot {
+    background-color: rgba(24, 24, 24, 0.479);
+    border-radius: 0px 0px 16px 16px;
+    padding: 5px 12px 5px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(246, 233, 255, 0.199);
+}
+
+.gitprev-foot .left {
+    float: left;
+    color: rgba(255, 255, 255, 0.096);
+}
+
+.gitprev-foot .right {
+    float: right;
+    text-align: right;
+}
+
+.gitprev-link {
+    color: rgba(255, 255, 255, 0.466) !important;
+    text-decoration: none;
+}
