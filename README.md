@@ -11,4 +11,4 @@ Here is a preview for you to don't loose your time (The final Snippet is already
 NOTES OF V1:
 - GitPrev is not responsive, I dind't paid any attention on this.
 - Icons are corrupted, so find your GitPrev your own situable icons
-- Im not responsible of any security breach or vulnerabilitie this could cause to your website 
+- Im not responsible of any security breach or vulnerability this could cause to your website 
