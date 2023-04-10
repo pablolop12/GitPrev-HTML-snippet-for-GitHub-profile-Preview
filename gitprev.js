@@ -1,13 +1,8 @@
-// JavaScript
-const apiUrl = "https://api.github.com/users/your_username"; //Change "your_username" by your actual GitHub username
-const accessToken = "your_token"; //Api Token (Generate it in GitHub settings and paste here)
-                                                                //This might be cause vulnerabilities, I'm not responsible of security breaches
+const apiUrl = "https://api.github.com/users/your-github-username"; //Change "your-github-username" for the
+																	//actual GitHub username profile you want
+																	// to show up.
 
-fetch(apiUrl, {
-  headers: {
-    Authorization: `token ${accessToken}`
-  }
-})
+fetch(apiUrl)
   .then((response) => response.json())
   .then((data) => {
     const profileImg = document.querySelector(".gitprev-img");
@@ -19,6 +14,9 @@ fetch(apiUrl, {
     const username = document.querySelector(".gitprev-username");
     username.textContent =data.login;
 
+    const url = document.querySelector(".gitprev-profile");
+    url.href = data.html_url;
+
     const description = document.querySelector(".gitprev-description");
     description.textContent = data.bio;
 
@@ -26,8 +24,14 @@ fetch(apiUrl, {
     location.textContent = `${data.location}`;
 
     const publicRepos = document.querySelector(".gitprev-repos");
-    publicRepos.textContent = `Public repos: ${data.public_repos}`;
+    publicRepos.textContent = `Repositorios públicos: ${data.public_repos}`;
+    
   })
   .catch((error) => {
     console.log(error);
   });
+
+
+
+
+
