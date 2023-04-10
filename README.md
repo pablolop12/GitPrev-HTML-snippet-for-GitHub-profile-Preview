@@ -3,12 +3,12 @@ Code snippet made with JavaScript, HTML &amp; CSS. Show a litle preview of your 
 
 Make sure you:
 - Link both CSS & JavaScript files to your HTML
-- Complete the JavaScript file with your profile & token fields missing
+- Complete the JavaScript file with your profile APIUrl field
 
 Here is a preview for you to don't loose your time (The final Snippet is already in english dont worry):
 <img src="https://i.imgur.com/Jw9jmeF.png" heigt="725px" alignb="center">
 
-NOTES OF V1:
-- GitPrev is not responsive, I dind't paid any attention on this.
-- Icons are corrupted, so find your GitPrev your own situable icons
-- Im not responsible of any security breach or vulnerability this could cause to your website 
+NOTES OF V2:
+- GitPrev is stillnot responsive, I still dind't paid any attention on this.
+- Icon problems are solved, GitPrev is using fontawesome CDN for this.
+- There is not security problems now, as GitPrev uses the public GitHub API to get profile data.
